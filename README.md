@@ -19,7 +19,7 @@ then get [ublock origin](https://github.com/gorhill/uBlock) and if you want to u
 > [!warning]
 > this extension, all my other web theming ones, and my adblock filter list will always stay free... but
 >
-> i have received a few hurtful comments directed to me before in my github pms about charging for my netflix theming script ($2), but please be considerate
+> i have received a few hurtful comments directed to me before in my reddit pms about charging for my netflix theming script ($2), but please be considerate
 >
 > i write a lot of code to improve the web and other things. i spend time curating an adblock filter with over 1500 lines, and if you really want, the paywall in the theme can be easily bypassed
 >
