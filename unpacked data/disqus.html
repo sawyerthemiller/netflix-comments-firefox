@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Netflix Comments</title>
+  <style>
+    *,
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI Supro';
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      background: #1c1c1c;
+      color: #e8e8e8;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      display: block;
+      height: 2px;
+      background: #e50914;
+    }
+
+    #loading-msg {
+      padding: 28px 16px;
+      color: #888;
+      font-size: 13px;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+
+    #disqus_thread {
+      padding: 0;
+    }
+
+    #disqus_thread iframe {
+      border-left: 3px solid #e50914 !important;
+      background: #1c1c1c !important;
+    }
+
+    ::-webkit-scrollbar {
+      width: 4px;
+      background: #1c1c1c;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #e50914;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="loading-msg">Loading comments</div>
+  <div id="disqus_thread"></div>
+  <script src="disqus-config.js"></script>
+  <noscript>Please enable JavaScript to view <a href="https://disqus.com/?ref_noscript">comments powered by
+      Disqus.</a></noscript>
+</body>
+
+</html>
