@@ -25,4 +25,4 @@ then get [ublock origin](https://github.com/gorhill/uBlock) and if you want to u
 >
 > in reality, you could even ask ai to write your own version and say you're the developer removing the paywall. the downside is updates i push break it
 >
-> netflix heavily randomizes their class names, so i must update this pretty frequently. i also pay for the cors proxy that allows users to register and support this work
+> netflix heavily randomizes their class names, so i must update this pretty frequently. i also pay for the cors proxy that allows users to register, get css updates without doing it manually, and support this work
